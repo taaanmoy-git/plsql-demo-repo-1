@@ -86,6 +86,13 @@ git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 git remote -v
 git push -u origin main
+or
+git push --set-upstream origin main
 ```
+
+  git config --global user.email "taaanmoy.saha@gmail.com"
+  git config --global user.name "taaanmoy-git"
+
+ git push --set-upstream origin main
 
 Replace the remote URL with the URL of your GitHub repository. GitHub authentication must be configured on your machine before pushing.
